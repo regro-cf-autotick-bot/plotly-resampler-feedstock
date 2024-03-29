@@ -28,7 +28,7 @@ requirements:
     - trace-updater >=0.0.8
     - numpy >=1.14
     - orjson >=3.8.0,<4.0.0
-    - tsdownsample ==0.1.2
+    - tsdownsample >=0.1.3
   run_constrained:
     # Pip check complains about dash dependency here's to satistfy it
     - flask <2.3.0,>=1.0.4
